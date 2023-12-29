@@ -6,18 +6,13 @@
   align-items: center;
 }
 
-.counter {
-  background-color: #a4c3b2;
-  width: 50%;
-  padding: 10px;
+.sect {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
 }
 
-.btns button {
-  background-color: #6b9080;
-  margin: 0 5px 0 5px;
-  padding: 3px 7px;
-  border-radius: 5px;
-  cursor: pointer;
-  color: #eaf4f4;
-  border: none;
+.todo {
+  background-color: #fefae0;
+  padding: 1rem;
 }
