@@ -1,11 +1,13 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import CounterView from "./features/counter/CounterView";
+import PostView from "./features/posts/PostView";
 
 function App() {
   return (
     <div className="App">
-      <h3>Welcome to react-redux</h3>
-      <Counter />
+      <h3 className="title">Welcome to react-toolkit</h3>
+      <CounterView />
+      <PostView />
     </div>
   );
 }
