@@ -5,10 +5,10 @@ function CounterView() {
   const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
   return (
-    <div>
-      <h3>Counter App</h3>
-      <div>
-        <h4>Count : {count}</h4>
+    <div className="counter">
+      <h3 className="counter-title">Counter App</h3>
+      <h4>Count : {count}</h4>
+      <div className="btns">
         <button
           onClick={() => {
             dispatch(increment());
